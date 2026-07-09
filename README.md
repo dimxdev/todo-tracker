@@ -63,7 +63,7 @@ npm run dev                   # jalan di http://localhost:4000
 ```bash
 cd frontend
 npm install
-cp .env.example .env.local    # base URL API
+cp .env.example .env    # base URL API
 npm run dev                   # jalan di http://localhost:3000
 ```
 
@@ -105,5 +105,4 @@ curl -X POST http://localhost:4000/todos \
 - Optimistic UI update agar terasa lebih instan sebelum respons server tiba.
 - Autentikasi user sehingga tiap orang punya daftar todo sendiri.
 - Deploy (backend + database managed, frontend ke Vercel).
-# todo-tracker
-# todo-tracker
+
